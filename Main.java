@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     public static double calculateAverageGrade(int[] grades) {
-        // Write your code here
     	int soma = 0;
         for(int i = 0; i < grades.length; i++) {
         	soma += grades[i];
